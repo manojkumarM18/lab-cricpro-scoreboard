@@ -1,16 +1,80 @@
-/* Type your code here */
+body {
+  /* background-image: url(./assets/background-image1.png);
+  background-repeat: no-repeat; */
+  margin-left: 2%;
+  padding: 2%;
+  /* width: fit-co
+  ntent; */
+}
+tr {
+  border: 1px;
+  border-style: s;
+}
+#head {
+  display: flex;
+  justify-content: end;
+  margin-left: 1000px;
+}
+td {
+  padding: 5px;
+}
+header {
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 3px 3px 3px;
+}
+#img_cric {
+  position: absolute;
+  z-index: -1;
+  padding-left: 1px;
+}
+.one {
+  margin-top: -500px;
+  margin: 0px;
 
+  border: 1px;
+  border-style: solid;
+  background-color: white;
 
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+  /* background-image: url(./assets/background-image1.png);
+  background-repeat: no-repeat; */
+}
+.one tr {
+  border: 1px;
+  border-style: solid;
+}
+h5 {
+  color: gray;
+}
+#in {
+  background-color: orangered;
+  align-items: flex-end;
+  margin-left: 0px;
+}
+#india {
+  text-align: left;
+}
+#two {
+  text-align: left;
+}
+#img_cric {
+  margin-left: 2%;
+}
+a {
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  position: relative;
+  top: 750px;
+  margin-left: 80px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
+}
+#last {
+  position: absolute;
+  margin-top: -55%;
 }
